@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #84313c;
+  font-family:monospace;
+}
+
+
+.hero{
+  color: whitesmoke;
+  height: 825px;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+#Blue{
+  background: #003049;
+  width: 35px;
+  height: 35px;
+  border-radius: 0.5rem;
+  border: solid 2px #003049;
+  margin-left: 2%;
+  margin-top: 2%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#Blue:hover{
+  background: #0896e2;
+  width: 35px;
+  height: 35px;
+  border-radius: 0.5rem;
+  border: solid 2px #0896e2;
+  margin-left: 2%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+#Pink{
+  background: #f03d7f;
+  width: 35px;
+  height: 35px;
+  border-radius: 0.5rem;
+  border: solid 2px #f03d7f;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#Pink:hover{
+  background: #65283e;
+  width: 35px;
+  height: 35px;
+  border-radius: 0.5rem;
+  border: solid 2px #65283e;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#Brown{
+  background: #4a3e35;
+  width: 35px;
+  height: 35px;
+  border-radius: 0.5rem;
+  border: solid 2px #4a3e35;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#Brown:hover{
+  background: #a48673;
+  width: 35px;
+  height: 35px;
+  border-radius: 0.5rem;
+  border: solid 2px #a48673;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.hero #greet {
+  font-size: 75px;
+  margin-top: 15.5%;
+  margin-left: 5%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.hero #info{
+  font-size: 30px;
+  text-align: justify;
+  width: 38%;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+#img{
+  margin-bottom: 4px;
+  width: 450px;
+  height: 70%;
+  border-radius: 0.4rem;
+  float: right;
+  object-fit: cover; 
+  margin-right: 15%;
+  transform: translateY(-57%);
+}
+
+.kanit-medium {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.kanit-semibold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+

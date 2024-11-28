@@ -44,7 +44,7 @@ function Pink(){
  var body = document.body;
  var greet = document.getElementById('greet');
  var info = document.getElementById('info');
- var img = document.getElementById('img')
+ var img = document.getElementById('img');
 
  if(!state){
  body.style.backgroundColor = "#f4acb7";
@@ -78,43 +78,44 @@ else{
 }
 }
 
-
 var state = false;
 
 function Brown(){
  var body = document.body;
  var greet = document.getElementById('greet');
  var info = document.getElementById('info');
- var img = document.getElementById('img')
+ var img = document.getElementById('img');
 
  if(!state){
- body.style.backgroundColor = "#c6ac8f";
- body.style.color = "#ffffff";
- body.style.fontFamily = ""
- greet.innerHTML = "Hi, I'm Apo";
- info.innerHTML = "The last living traditional tattoo artist from the Kalinga region in the Philippines.";
- greet.style.fontFamily = "Times";
- greet.style.fontWeight = "700";
- img.style.transform = "translateY(-69%)";
- img.src = "IMG/Apo.jpg";
- info.style.marginLeft = "5%";
- info.style.fontFamily = "Cambria";
- info.style.fontWeight = "500";
- state = true;
-}
-else{
- body.style.backgroundColor = "";
- body.style.color = "";
- greet.innerHTML = "Welcome";
- info.innerHTML = "This is an Activity made by Me";
- greet.style.fontFamily = "";
- greet.style.fontWeight = "";
- img.style.transform = "translateY(-57%)";
- img.src = "IMG/cat.jpg";
- info.style.marginLeft = "";
- info.style.marginLeft = "";
- info.style.fontFamily = "";
- info.style.fontWeight = "";
- state = false;
-}
+  body.style.backgroundColor = "#c6ac8f";
+  body.style.color = "#ffffff";
+  greet.innerHTML = "Hi, I'm Apo";
+  info.innerHTML = "The last living traditional tattoo artist from the Kalinga region in the Philippines.";
+  greet.style.fontFamily = "Times";
+  greet.style.fontWeight = "700";
+  greet.style.fontSize = "120px";
+  greet.style.marginTop = "10%"; 
+  info.style.fontFamily = "Cambria";
+  info.style.fontWeight = "500";
+  info.style.fontSize = "50px"; 
+  img.style.transform = "translateY(-89%)";
+  img.src = "IMG/Apo.jpg";
+  info.style.marginLeft = "5%";
+  state = true;
+ } else {
+  body.style.backgroundColor = "";
+  body.style.color = "";
+  greet.innerHTML = "Welcome";
+  info.innerHTML = "This is an Activity made by Me";
+  greet.style.fontFamily = "";
+  greet.style.fontWeight = "";
+  greet.style.fontSize = ""; 
+  info.style.fontFamily = "";
+  info.style.fontWeight = "";
+  info.style.fontSize = ""; 
+  img.style.transform = "translateY(-57%)";
+  img.src = "IMG/cat.jpg";
+  info.style.marginLeft = "";
+  state = false;
+ }
 }
